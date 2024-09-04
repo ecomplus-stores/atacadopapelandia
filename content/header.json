@@ -1,32 +1,35 @@
 {
-  "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 50%!",
-    "link": "/promotion"
-  },
-  "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
-    ],
-    "phone_wpp": true,
-    "socials": true
-  },
   "categories_list": {
     "featured": [],
     "random": 6,
     "full_width": false
   },
+  "menu_all_departments": true,
   "centralized_logo": false,
-  "desktop_megamenu": false,
+  "marketing_stripe": {
+    "text": "EMPREENDA FAZENDO O QUE AMA❤️ |SUPER VARIEDADE DE PRODUTOS EM ATACADO PARA LUCRAR REVENDENDO PAPELARIA 💸",
+    "link": "",
+    "background": "#f66cb7",
+    "color": "#0d1f49"
+  },
+  "alphabetical_order_submenu": true,
+  "name_all_departments": "Todas as Categorias",
   "search_input": true,
-  "alphabetical_order_submenu": false,
+  "desktop_megamenu": true,
   "full_width_submenu": false,
-  "menu_all_departments": false,
-  "name_all_departments": ""
+  "contacts_stripe": {
+    "pages": [
+      {
+        "title": "➡️Comece por Aqui"
+      },
+      {
+        "title": "💜Comunidade"
+      },
+      {
+        "title": "📚 Blog"
+      }
+    ],
+    "phone_wpp": false,
+    "socials": true
+  }
 }
