@@ -1,1 +1,119 @@
 // Add your custom CSS here.
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --m-ff: 'Jost', sans-serif;
+  --m-fs: 16px;
+  --m-fw: 600;
+  --m-ls: 0px;
+  --m-tt: none;
+  --h1-ff: 'Jost', sans-serif;
+  --h1-fs: 34px;
+  --h1-fw: 600;
+  --h1-ls: 0px;
+  --h1-tt: none;
+  --h2-ff: 'Jost', sans-serif;
+  --h2-fs: 18px;
+  --h2-fw: 600;
+  --h2-ls: 0px;
+  --h2-tt: none;
+  --h3-ff: 'Jost', sans-serif;
+  --h3-fs: 20px;
+  --h3-fw: regular;
+  --h3-ls: 0px;
+  --h3-tt: none;
+  --tx-ff: 'Jost', sans-serif;
+  --tx-fs: 16px;
+  --tx-fw: 400;
+  --tx-ls: 0px;
+  --tx-tt: none;
+}
+body{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  background:#fdf7f7;
+  --body-bg:#fdf7f7
+}
+
+.top-bar{
+  .top-bar__countdown {
+    font-size:12px;
+    font-weight: bold;
+  }
+  .top-bar__nav{
+    background: #fff;
+  }
+}
+.product-card{
+  background: #fff;
+  padding: 1rem;
+  *{text-align: center;align-items: center;}
+  .product-card__favorite:hover{
+    i{color: var(--secondary);}
+  }
+  .product-card__favorite{
+    background: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    opacity: 1!important;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    border: 1px solid #f2f2f2;
+    i{
+      color: #666;
+      margin: 0;
+    }
+  }
+}
+.product-card__buy{
+  display: block;
+  opacity: 1!important;
+  button.btn{
+    margin-top: .5rem;
+    background: #EB6FBB;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    width:fit-content;
+    margin-left:auto;
+    margin-right: auto;
+    padding: .5rem 2rem;
+    color: #000;
+    i{display: none;}
+  }
+}
+//.glide__slides{
+  .glide__arrows{
+    button{
+      //i{
+        font-size: 24px!important;
+      //}
+    }
+  }
+//}
+
+.products-carousel__title:before{display: none;}
+.products-carousel__title{
+  span{
+    color: #000;
+    font-size: var(--h1-fs);
+  }
+}
+
+header.header{
+  background: #fff;
+  border: 0;
+  .header__logo{max-height: 120px;max-width: unset;}
+  .header__search {
+    > input{
+      background:#E1D4EF;
+    }
+  }
+}
