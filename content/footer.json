@@ -22,10 +22,13 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
+      "src": "/img/uploads/ssl-color.svg",
       "alt": "Secure connection",
       "width": 150,
       "height": 62
+    },
+    {
+      "src": "/img/uploads/googlesafe-color.svg"
     }
   ],
   "payment_methods": {
@@ -37,5 +40,5 @@
     "hipercard": true,
     "boleto": true
   },
-  "credits": ""
+  "credits": "PAPELANDIA IMPORT. E DISTR DE PAPELARIA LTDA - CNPJ: 38.156.862/0001-80 © Todos os direitos reservados. 2024"
 }
