@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.fe202dd0366a5ed1ce48af8e32aeca52.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.cc8eed47907ca5cd80a93605ea58e270.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.671abcdb6db3beaeb79a8b6d50d592c5.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.1f82db33abc5ec332c1c1d741fb5b8f3.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.bae88b3ba05ef2baf83af2bb5425c2ea.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "atacadopapelandia",
+  "short_name": "Atacado Papelândia",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Papelaria em atacado. Somos distribuidor de artigos de papelaria e material escolar. Abastecemos revendedores e empreendedores que desejam fazer renda trabalhando com papelaria. Atuamos com um amplo portfólio de produtos nacionais e importados.",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
